@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Optimizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Image Optimizer</h1>
+    <div class="container1">
+      <div class="image-container">
+        <h3 class="message" style="color: #ffffff; display: none">
+          image is more than 2MB. Please optimize it
+        </h3>
+        <input type="file" id="image-input" accept="image/*" />
+      </div>
+      <p id="message"></p>
+    </div>
+
+    <div class="container2" style="display: none">
+      <div class="box1">
+        <div class="box11"></div>
+        <button id="optimize-25">Optimize 25%</button>
+      </div>
+      <div class="box1">
+        <div class="box12"></div>
+        <button id="optimize-50">Optimize 50%</button>
+      </div>
+      <div class="box1">
+        <div class="box13"></div>
+        <button id="optimize-75">Optimize 75%</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
